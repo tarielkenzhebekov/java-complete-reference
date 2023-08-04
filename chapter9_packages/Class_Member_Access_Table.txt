@@ -1,0 +1,26 @@
+Class Member Access
+
+								private		default		protected     public
+
+Same class 						Yes			Yes 		Yes			  Yes
+
+Same package subclass 			No 			Yes 		Yes			  Yes
+	
+Same package non-subclass 		No 			Yes 		Yes			  Yes
+
+Diff. package subclass 			No 			No 			Yes 		  Yes
+
+Diff. package non-subclass 		No 			No 			No            Yes
+
+
+
+
+Non-Nested Class Access
+					
+								default		public
+
+Same package					Yes			Yes
+
+Diff. package					No 			Yes
+
+		* When a class is public, it must be the only public class in the file  
